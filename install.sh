@@ -24,10 +24,10 @@ rm ./cerebro_0.8.4_all.deb
 
 # INSTALL NVM (NODE)
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
-nvm install 8.16.0
+cd ../
+. node.sh
 
 # REMOVE TEMP DIR
-cd ../
 rm -r ./temp
 
 # INSTALL AND CONFIGURE GIT
